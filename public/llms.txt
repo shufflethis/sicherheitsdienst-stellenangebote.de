@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# sicherheitsdienst-stellenangebote.de - Sicherheitsdienst Stellenangebote
+
+> sicherheitsdienst-stellenangebote.de ist ein spezialisiertes Jobportal fuer Sicherheitsdienst-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Sicherheitsdienst
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://sicherheitsdienst-stellenangebote.de
+- Arbeitgeber-Kontakt: https://sicherheitsdienst-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://sicherheitsdienst-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Sicherheitsdienst-Stellenangebote
+- Karriere-Ratgeber fuer Sicherheitsdienst
+- Gehaltsvergleiche und Brancheninformationen
