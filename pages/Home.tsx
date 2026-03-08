@@ -12,6 +12,96 @@ import { Shield, Eye, Lock } from 'lucide-react';
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    company: 'NORDIC RAIL SERVICE GMBH',
+    location: 'Lübeck',
+    type: 'Vollzeit',
+    description: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '2',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '3',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    company: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '4',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '5',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    company: 'Sikla GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    postedAt: '2026-03-08'
+  },
+  {
+    id: '6',
+    title: 'Einsatzleiter/in (m/w/d) im Sicherheitsdienst',
+    company: 'Fischer Security&Service GmbH',
+    location: 'Mülheim an der Ruhr',
+    type: 'Vollzeit',
+    description: 'Einsatzleiter/in (m/w/d) im Sicherheitsdienst',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '7',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'SECUROP Bewachungsdienst Dr. Siegfried Frisch Gesellschaft m.b.H.',
+    location: 'Linz',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '8',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'ÖWD Österreichischer Wachdienst security GmbH & Co KG',
+    location: 'Linz',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '9',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'Landeskrankenhaus Feldkirch',
+    location: 'Feldkirch',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-06'
+  },
+  {
+    id: '10',
+    title: 'Mitarbeiter für Sicherheitsdienst',
+    company: 'PRIMEGUARD Sicherheitsdienst - Fiedler Michael',
+    location: 'Beilngries',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter für Sicherheitsdienst',
+    postedAt: '2026-03-05'
+  },
+  {
+    id: '11',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'G4S Secure Solutions GmbH',
     location: 'Bezirk: Spittal an der Drau',
@@ -20,7 +110,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '2',
+    id: '12',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'G4S Secure Solutions GmbH',
     location: 'Bezirk: Klagenfurt Stadt',
@@ -29,7 +119,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '3',
+    id: '13',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'Bewachungsdienst Dr. Siegfried Frisch Gesellschaft m.b.H.',
     location: 'Bezirk: Krems(Land)',
@@ -38,7 +128,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '4',
+    id: '14',
     title: 'Wach-und Sicherheitsdienst',
     company: 'Uwe Kallies',
     location: 'Bautzen, Sachsen',
@@ -47,7 +137,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '5',
+    id: '15',
     title: 'Sicherheitsdienst Mitarbeiter §34a',
     company: 'Grieger Sicherheitsdienst GmbH',
     location: 'Hamburg',
@@ -56,7 +146,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-25'
   },
   {
-    id: '6',
+    id: '16',
     title: 'Sicherheitsdienst m/w/d',
     company: 'Waldemar Pauch Sicherheit',
     location: 'Offenburg',
@@ -65,7 +155,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-24'
   },
   {
-    id: '7',
+    id: '17',
     title: 'Mitarbeiter Sicherheitsdienst (w/m/d)',
     company: 'ELBLAND Service und Logistik GmbH',
     location: 'Meißen, Sachsen',
@@ -74,7 +164,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-23'
   },
   {
-    id: '8',
+    id: '18',
     title: 'Schichtleiter im Sicherheitsdienst (m/w/d)',
     company: 'SHS Sicherheit & Service GmbH',
     location: 'Ulm, Donau',
@@ -83,7 +173,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-20'
   },
   {
-    id: '9',
+    id: '19',
     title: 'Sicherheitsdienst Objektschutz (m/w/d)',
     company: 'FINEOO Inhaber Eric Martin',
     location: 'Lübben (Spreewald)',
@@ -92,7 +182,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-19'
   },
   {
-    id: '10',
+    id: '20',
     title: 'Objektleiter: Sicherheitsdienst Einkaufszentrum',
     company: 'Wiesing Sicherheitsdienst und Service',
     location: 'Ottersberg bei Bremen',
@@ -101,7 +191,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-16'
   },
   {
-    id: '11',
+    id: '21',
     title: 'Mitarbeiter/-in (w/m/d) im Sicherheitsdienst',
     company: 'Universitätsklinikum Aachen',
     location: 'Aachen',
@@ -110,7 +200,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-12'
   },
   {
-    id: '12',
+    id: '22',
     title: 'Einsatzleitung (m/w/d) für Sicherheitsdienst',
     company: 'Bavaria Werkschutz GmbH',
     location: 'München',
@@ -119,7 +209,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-12'
   },
   {
-    id: '13',
+    id: '23',
     title: 'Mitarbeiter im Sicherheitsdienst (m/w/d)',
     company: 'BOS Concept Thomas Schurr',
     location: 'Grünwald, Kreis München',
@@ -128,7 +218,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-10'
   },
   {
-    id: '14',
+    id: '24',
     title: 'Objektleitung (m/w/d) im Sicherheitsdienst',
     company: 'Piepenbrock Dienstleistungsgruppe GmbH & Co.KG',
     location: 'Langen (Hessen)',
@@ -137,103 +227,13 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-01-14'
   },
   {
-    id: '15',
+    id: '25',
     title: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
     company: 'Lanfer Logistik GmbH',
     location: 'Meppen',
     type: 'Vollzeit',
     description: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
     postedAt: '2026-01-13'
-  },
-  {
-    id: '16',
-    title: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
-    company: 'Sicherheitsdienstleistungen Rhein-Ruhr GmbH',
-    location: 'Essen, Ruhr',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
-    postedAt: '2026-01-06'
-  },
-  {
-    id: '17',
-    title: 'Einsatzleiter Sicherheitsdienst (m/w/d)',
-    company: 'WIKING Sicherheit und Service GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    description: 'Einsatzleiter Sicherheitsdienst (m/w/d)',
-    postedAt: '2025-12-24'
-  },
-  {
-    id: '18',
-    title: 'Hundeführer:in im Sicherheitsdienst',
-    company: 'Deutsche Bahn AG',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    description: 'Hundeführer:in im Sicherheitsdienst',
-    postedAt: '2025-12-22'
-  },
-  {
-    id: '19',
-    title: 'Mitarbeiter\\*in (m/w/d) im Sicherheitsdienst',
-    company: 'Ihre Wache GmbH',
-    location: 'Lübben (Spreewald)',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter\\*in (m/w/d) im Sicherheitsdienst',
-    postedAt: '2025-12-03'
-  },
-  {
-    id: '20',
-    title: 'Mitarbeiter\\*in (m/w/d) im Sicherheitsdienst',
-    company: 'Ihre Wache GmbH',
-    location: 'Bautzen, Sachsen',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter\\*in (m/w/d) im Sicherheitsdienst',
-    postedAt: '2025-12-03'
-  },
-  {
-    id: '21',
-    title: 'Teamleiter (m/w/d) im Sicherheitsdienst',
-    company: 'Thiem-Service GmbH',
-    location: 'Cottbus',
-    type: 'Vollzeit',
-    description: 'Teamleiter (m/w/d) im Sicherheitsdienst',
-    postedAt: '2025-11-28'
-  },
-  {
-    id: '22',
-    title: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
-    company: 'Knettenbrech + Gurdulic Service GmbH & Co. KG',
-    location: 'Wiesbaden',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
-    postedAt: '2025-10-28'
-  },
-  {
-    id: '23',
-    title: 'EINSATZLEITER IM SICHERHEITSDIENST',
-    company: 'Agentur EMV Jessica Hemmerle',
-    location: 'Augsburg, Bayern',
-    type: 'Vollzeit',
-    description: 'EINSATZLEITER IM SICHERHEITSDIENST',
-    postedAt: '2025-10-16'
-  },
-  {
-    id: '24',
-    title: 'Wachmann im Sicherheitsdienst (m/w/d)',
-    company: 'ABS Alarm Bewachungs & Sicherheitsdienst GmbH',
-    location: 'Rostock',
-    type: 'Vollzeit',
-    description: 'Wachmann im Sicherheitsdienst (m/w/d)',
-    postedAt: '2025-07-11'
-  },
-  {
-    id: '25',
-    title: 'Bereichsleiter (m/w/d) im Sicherheitsdienst',
-    company: 'ARDOR SE',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    description: 'Bereichsleiter (m/w/d) im Sicherheitsdienst',
-    postedAt: '2025-06-25'
   }
 ];
 
