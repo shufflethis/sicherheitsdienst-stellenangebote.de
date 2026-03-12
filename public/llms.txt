@@ -1,19 +1,36 @@
 # HR-UPDATER: v1.0
 # sicherheitsdienst-stellenangebote.de - Sicherheitsdienst Stellenangebote
 
-> sicherheitsdienst-stellenangebote.de ist ein spezialisiertes Jobportal fuer Sicherheitsdienst-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> sicherheitsdienst-stellenangebote.de ist ein spezialisiertes Jobportal fuer Sicherheitsdienst-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
 - Spezialisiertes Jobportal fuer Sicherheitsdienst
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Bereiche: Objektschutz, Personenschutz, Veranstaltungsschutz, Werkschutz, Revierdienst, Geld- und Werttransport
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Adresse: Schliemannstrasse 23, 10437 Berlin
+- Geschaeftsfuehrer: Thomas Sander
+- Telefon: +49 30 959 988 700
+- E-Mail: info@socialmediaventure.com
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
 
 ## Kontakt
 - Website: https://sicherheitsdienst-stellenangebote.de
-- Arbeitgeber-Kontakt: https://sicherheitsdienst-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://sicherheitsdienst-stellenangebote.de/kontakt-bewerber
+- Kontaktseite: https://sicherheitsdienst-stellenangebote.de/#/kontakt
+- Impressum: https://sicherheitsdienst-stellenangebote.de/#/impressum
 
 ## Inhalte
 - Aktuelle Sicherheitsdienst-Stellenangebote
 - Karriere-Ratgeber fuer Sicherheitsdienst
 - Gehaltsvergleiche und Brancheninformationen
+- Jobs in allen grossen deutschen Staedten (Berlin, Hamburg, Muenchen, Frankfurt, Koeln, u.v.m.)
+
+## Seiten
+- Startseite: https://sicherheitsdienst-stellenangebote.de/
+- Kontakt: https://sicherheitsdienst-stellenangebote.de/#/kontakt
+- Impressum: https://sicherheitsdienst-stellenangebote.de/#/impressum
+- Datenschutz: https://sicherheitsdienst-stellenangebote.de/#/datenschutz
+- Autor: https://sicherheitsdienst-stellenangebote.de/#/autor/thomas-sander

@@ -7,7 +7,8 @@ import JobCard from '../components/JobCard';
 import Sidebar from '../components/Sidebar';
 import Hero from '../components/Hero';
 import { Job } from '../types';
-import { Shield, Eye, Lock } from 'lucide-react';
+import { Shield, Eye, Lock, HelpCircle, TrendingUp } from 'lucide-react';
+import GermanCitiesGeo from '../components/geo/GermanCitiesGeo';
 
 const MOCK_JOBS: Job[] = [
   {
@@ -253,10 +254,10 @@ const Home: React.FC = () => {
         <Hero />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex flex-col lg:flex-row gap-10">
-            <aside className="w-full lg:w-1/4">
+            <aside className="w-full lg:w-1/4 order-2 lg:order-1">
               <Sidebar />
             </aside>
-            <div className="w-full lg:w-3/4">
+            <div className="w-full lg:w-3/4 order-1 lg:order-2">
               <div className="flex items-center justify-between mb-8 bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                 <div className="flex items-center gap-4">
                   <div className="bg-slate-900 p-3 rounded-lg text-yellow-400">
@@ -305,8 +306,98 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
+        {/* Geo SEO Section */}
+        <GermanCitiesGeo />
+
+        {/* Karriere im Sicherheitsdienst */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <div className="inline-flex items-center gap-2 text-yellow-500 mb-4">
+                <TrendingUp size={24} />
+              </div>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3">Karriere im Sicherheitsdienst</h2>
+              <p className="text-slate-500 max-w-2xl mx-auto">
+                Der Sicherheitssektor bietet vielfaeltige Karrierewege mit wachsender Nachfrage und stabilen Beschaeftigungsaussichten.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+                <h3 className="font-bold text-slate-900 mb-3 text-lg">Einstieg in die Branche</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Der Einstieg in die Sicherheitsbranche beginnt mit der Unterrichtung oder Sachkundepruefung nach §34a GewO. Viele Unternehmen bieten berufsbegleitende Weiterbildungen an und unterstuetzen Sie auf Ihrem Karriereweg.
+                </p>
+              </div>
+              <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+                <h3 className="font-bold text-slate-900 mb-3 text-lg">Aufstiegsmoeglichkeiten</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Vom Sicherheitsmitarbeiter zum Schichtleiter, Einsatzleiter oder Objektleiter - die Karriereleiter bietet klare Aufstiegschancen. Spezialisierungen wie Personenschutz, Werkschutz oder Luftsicherheit eroeffnen weitere Perspektiven.
+                </p>
+              </div>
+              <div className="bg-slate-50 rounded-xl p-6 border border-slate-200">
+                <h3 className="font-bold text-slate-900 mb-3 text-lg">Gehalt & Perspektiven</h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Die Sicherheitsbranche verzeichnet steigende Loehne. Fachkraefte mit Sachkundepruefung und Berufserfahrung koennen mit ueberdurchschnittlicher Verguetung rechnen. Die Nachfrage nach qualifiziertem Personal waechst stetig.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-slate-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <div className="inline-flex items-center gap-2 text-yellow-500 mb-4">
+                <HelpCircle size={24} />
+              </div>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3">Haeufig gestellte Fragen</h2>
+              <p className="text-slate-500 max-w-2xl mx-auto">
+                Antworten auf die wichtigsten Fragen rund um Sicherheitsdienst-Stellenangebote und Ihre Karriere in der Sicherheitsbranche.
+              </p>
+            </div>
+            <div className="space-y-4">
+              {[
+                {
+                  q: 'Welche Qualifikationen brauche ich fuer den Sicherheitsdienst?',
+                  a: 'Fuer die meisten Taetigkeiten im Sicherheitsdienst benoetigen Sie mindestens eine Unterrichtung nach §34a GewO. Fuer leitende Positionen oder spezielle Einsatzbereiche wie Personenschutz ist die Sachkundepruefung erforderlich. Zusaetzlich sind ein einwandfreies Fuehrungszeugnis und Erste-Hilfe-Kenntnisse Standard.'
+                },
+                {
+                  q: 'Wie finde ich passende Sicherheitsdienst-Jobs in meiner Naehe?',
+                  a: 'Nutzen Sie unsere Jobsuche mit Standortfilter, um Sicherheitsdienst-Stellenangebote in Ihrer Region zu finden. Sie koennen nach Stadt, Einsatzbereich und Qualifikation filtern, um genau die passenden Angebote zu erhalten.'
+                },
+                {
+                  q: 'Was verdient man im Sicherheitsdienst?',
+                  a: 'Das Gehalt im Sicherheitsdienst variiert je nach Qualifikation, Region und Einsatzbereich. Sicherheitsmitarbeiter mit §34a-Sachkundepruefung verdienen in der Regel zwischen 2.500 und 3.500 Euro brutto monatlich. Einsatzleiter und Objektleiter koennen deutlich mehr verdienen.'
+                },
+                {
+                  q: 'Ist die Stellensuche auf diesem Portal kostenlos?',
+                  a: 'Ja, die Stellensuche auf sicherheitsdienst-stellenangebote.de ist fuer Bewerber vollstaendig kostenlos. Sie koennen alle verfuegbaren Stellenangebote durchsuchen und sich direkt bei den Arbeitgebern bewerben.'
+                },
+                {
+                  q: 'Welche Einsatzbereiche gibt es im Sicherheitsdienst?',
+                  a: 'Die Sicherheitsbranche bietet zahlreiche Einsatzbereiche: Objektschutz, Werkschutz, Personenschutz, Veranstaltungsschutz, Revierdienst, Empfangsdienst, Geld- und Werttransport, Luftsicherheit, Hafensicherheit und viele weitere Spezialisierungen.'
+                },
+                {
+                  q: 'Wer betreibt sicherheitsdienst-stellenangebote.de?',
+                  a: 'Dieses Portal wird von der Social Media Venture GmbH betrieben, einem Unternehmen mit Sitz in Berlin unter der Geschaeftsfuehrung von Thomas Sander. Die Firma ist spezialisiert auf den Aufbau und Betrieb branchenspezifischer Jobportale in Deutschland.'
+                }
+              ].map((faq, i) => (
+                <details key={i} className="bg-white rounded-xl border border-slate-200 overflow-hidden group">
+                  <summary className="p-6 cursor-pointer font-semibold text-slate-900 hover:text-yellow-600 transition-colors list-none flex items-center justify-between">
+                    <span>{faq.q}</span>
+                    <span className="text-yellow-500 ml-4 flex-shrink-0 group-open:rotate-45 transition-transform text-xl font-bold">+</span>
+                  </summary>
+                  <div className="px-6 pb-6 text-slate-600 text-sm leading-relaxed">
+                    {faq.a}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
-      
+
       <footer className="bg-slate-950 text-slate-500 py-16 border-t-4 border-slate-900">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
           <div className="col-span-1 md:col-span-2">
