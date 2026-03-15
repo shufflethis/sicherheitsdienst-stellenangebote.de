@@ -13,6 +13,96 @@ import GermanCitiesGeo from '../components/geo/GermanCitiesGeo';
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '7',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'FSZ Sicherheits- dienstleistungs GmbH',
+    location: 'Leobendorf',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-12'
+  },
+  {
+    id: '8',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'G4S Secure Solutions GmbH',
+    location: 'Ranshofen',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-12'
+  },
+  {
+    id: '9',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'Transfer Jobservice GmbH',
+    location: 'Bruckneudorf',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-12'
+  },
+  {
+    id: '10',
+    title: 'Sicherheitsmitarbeiter/in',
+    company: 'ÖWD Österreichischer Wachdienst security GmbH & Co KG',
+    location: 'Rattenberg',
+    type: 'Vollzeit',
+    description: 'Sicherheitsmitarbeiter/in',
+    postedAt: '2026-03-12'
+  },
+  {
+    id: '11',
     title: 'Wagenmeister/in (m/w/d) für den mobilen Dienst als Vorarbeiter/in (m/w/d)',
     company: 'NORDIC RAIL SERVICE GMBH',
     location: 'Lübeck',
@@ -21,7 +111,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '2',
+    id: '12',
     title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
     company: 'HUK-COBURG Versicherungsgruppe',
     location: 'Weißenburg i. Bayern',
@@ -30,7 +120,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '3',
+    id: '13',
     title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
     company: 'HUK-COBURG Versicherungsgruppe',
     location: 'Nürnberg',
@@ -39,7 +129,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '4',
+    id: '14',
     title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
     company: 'Sikla GmbH',
     location: 'Nürnberg',
@@ -48,7 +138,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '5',
+    id: '15',
     title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
     company: 'Sikla GmbH',
     location: 'München',
@@ -57,7 +147,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-08'
   },
   {
-    id: '6',
+    id: '16',
     title: 'Einsatzleiter/in (m/w/d) im Sicherheitsdienst',
     company: 'Fischer Security&Service GmbH',
     location: 'Mülheim an der Ruhr',
@@ -66,7 +156,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-06'
   },
   {
-    id: '7',
+    id: '17',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'SECUROP Bewachungsdienst Dr. Siegfried Frisch Gesellschaft m.b.H.',
     location: 'Linz',
@@ -75,7 +165,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-06'
   },
   {
-    id: '8',
+    id: '18',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'ÖWD Österreichischer Wachdienst security GmbH & Co KG',
     location: 'Linz',
@@ -84,7 +174,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-06'
   },
   {
-    id: '9',
+    id: '19',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'Landeskrankenhaus Feldkirch',
     location: 'Feldkirch',
@@ -93,7 +183,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-06'
   },
   {
-    id: '10',
+    id: '20',
     title: 'Mitarbeiter für Sicherheitsdienst',
     company: 'PRIMEGUARD Sicherheitsdienst - Fiedler Michael',
     location: 'Beilngries',
@@ -102,7 +192,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-05'
   },
   {
-    id: '11',
+    id: '21',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'G4S Secure Solutions GmbH',
     location: 'Bezirk: Spittal an der Drau',
@@ -111,7 +201,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '12',
+    id: '22',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'G4S Secure Solutions GmbH',
     location: 'Bezirk: Klagenfurt Stadt',
@@ -120,7 +210,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '13',
+    id: '23',
     title: 'Sicherheitsmitarbeiter/in',
     company: 'Bewachungsdienst Dr. Siegfried Frisch Gesellschaft m.b.H.',
     location: 'Bezirk: Krems(Land)',
@@ -129,7 +219,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '14',
+    id: '24',
     title: 'Wach-und Sicherheitsdienst',
     company: 'Uwe Kallies',
     location: 'Bautzen, Sachsen',
@@ -138,103 +228,13 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '15',
+    id: '25',
     title: 'Sicherheitsdienst Mitarbeiter §34a',
     company: 'Grieger Sicherheitsdienst GmbH',
     location: 'Hamburg',
     type: 'Vollzeit',
     description: 'Sicherheitsdienst Mitarbeiter §34a',
     postedAt: '2026-02-25'
-  },
-  {
-    id: '16',
-    title: 'Sicherheitsdienst m/w/d',
-    company: 'Waldemar Pauch Sicherheit',
-    location: 'Offenburg',
-    type: 'Vollzeit',
-    description: 'Sicherheitsdienst m/w/d',
-    postedAt: '2026-02-24'
-  },
-  {
-    id: '17',
-    title: 'Mitarbeiter Sicherheitsdienst (w/m/d)',
-    company: 'ELBLAND Service und Logistik GmbH',
-    location: 'Meißen, Sachsen',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter Sicherheitsdienst (w/m/d)',
-    postedAt: '2026-02-23'
-  },
-  {
-    id: '18',
-    title: 'Schichtleiter im Sicherheitsdienst (m/w/d)',
-    company: 'SHS Sicherheit & Service GmbH',
-    location: 'Ulm, Donau',
-    type: 'Vollzeit',
-    description: 'Schichtleiter im Sicherheitsdienst (m/w/d)',
-    postedAt: '2026-02-20'
-  },
-  {
-    id: '19',
-    title: 'Sicherheitsdienst Objektschutz (m/w/d)',
-    company: 'FINEOO Inhaber Eric Martin',
-    location: 'Lübben (Spreewald)',
-    type: 'Vollzeit',
-    description: 'Sicherheitsdienst Objektschutz (m/w/d)',
-    postedAt: '2026-02-19'
-  },
-  {
-    id: '20',
-    title: 'Objektleiter: Sicherheitsdienst Einkaufszentrum',
-    company: 'Wiesing Sicherheitsdienst und Service',
-    location: 'Ottersberg bei Bremen',
-    type: 'Vollzeit',
-    description: 'Objektleiter: Sicherheitsdienst Einkaufszentrum',
-    postedAt: '2026-02-16'
-  },
-  {
-    id: '21',
-    title: 'Mitarbeiter/-in (w/m/d) im Sicherheitsdienst',
-    company: 'Universitätsklinikum Aachen',
-    location: 'Aachen',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter/-in (w/m/d) im Sicherheitsdienst',
-    postedAt: '2026-02-12'
-  },
-  {
-    id: '22',
-    title: 'Einsatzleitung (m/w/d) für Sicherheitsdienst',
-    company: 'Bavaria Werkschutz GmbH',
-    location: 'München',
-    type: 'Vollzeit',
-    description: 'Einsatzleitung (m/w/d) für Sicherheitsdienst',
-    postedAt: '2026-02-12'
-  },
-  {
-    id: '23',
-    title: 'Mitarbeiter im Sicherheitsdienst (m/w/d)',
-    company: 'BOS Concept Thomas Schurr',
-    location: 'Grünwald, Kreis München',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter im Sicherheitsdienst (m/w/d)',
-    postedAt: '2026-02-10'
-  },
-  {
-    id: '24',
-    title: 'Objektleitung (m/w/d) im Sicherheitsdienst',
-    company: 'Piepenbrock Dienstleistungsgruppe GmbH & Co.KG',
-    location: 'Langen (Hessen)',
-    type: 'Vollzeit',
-    description: 'Objektleitung (m/w/d) im Sicherheitsdienst',
-    postedAt: '2026-01-14'
-  },
-  {
-    id: '25',
-    title: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
-    company: 'Lanfer Logistik GmbH',
-    location: 'Meppen',
-    type: 'Vollzeit',
-    description: 'Mitarbeiter (m/w/d) im Sicherheitsdienst',
-    postedAt: '2026-01-13'
   }
 ];
 
